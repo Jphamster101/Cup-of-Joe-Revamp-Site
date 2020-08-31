@@ -1,0 +1,62 @@
+.contact-link {
+    background-color: #737373; 
+ }
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.side-bar {
+    width: 50%;
+}
+
+article {
+    margin-left: 1em;
+}
+
+article h1 {
+    margin-bottom: 1rem;
+}
+
+article img {
+    width: 100%;
+}
+
+.schedule {
+    padding: 1rem;
+    border: 1px solid white;
+}
+
+.rex {
+    margin-bottom: 2rem;
+    box-shadow: 5px 10px 8px 10px #8a0303;
+}
+
+/* Social Media Links */
+
+.social-media-links {
+    margin-top: 2em;
+}
+
+.social-media-links a {
+    text-decoration: none;
+}
+
+.social-media-links ul {
+    list-style: none;
+}
+
+
+.end {
+    display: flex;
+}
+
+.contact-info {
+    width: 50%;
+}
+
+.kiddie-cocoa {
+    width: 50%;
+}

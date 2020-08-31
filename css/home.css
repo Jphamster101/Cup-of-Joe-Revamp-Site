@@ -1,0 +1,94 @@
+.home-link {
+    background-color: #FA4B86;
+}
+
+.motto {
+    font-size: 2.75rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #81C784;
+}
+
+.main-section {
+    margin: 2rem auto;
+    display: flex;
+}
+
+.message {
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.75rem;
+}
+
+.pickup-info {
+    color: #E0E0E0;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+}
+
+.image-carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* background-color: #3F51B5; */
+    /* align-items: center; */
+    width: 60%;
+    margin: 0 1em;
+}
+
+.image-carousel img {
+    object-fit: cover;
+    object-position: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 80%;
+    z-index: -1;
+    padding-top: 1em;
+}
+
+.image-carousel img.next {
+    opacity: 1;
+    z-index: 1;
+}
+
+.image-carousel img.prev {
+    opacity: 1;
+    z-index: 2;
+}
+
+.image-carousel img.fade-out {
+    opacity: 0;
+    transition: visibility 0s .5s, opacity .5s linear;
+    visibility: hidden;
+  }
+  
+
+img {
+    box-shadow: 20px 20px #b71c1c;
+}
+
+@media screen and (max-width: 667px) {
+
+    .image-carousel {
+        display: none;
+    }
+
+    .side-bar {
+        background-color: green;
+        width: 100%;
+    }
+
+    .main-section {
+        /* background-color: royalblue; */
+        display: flex;
+        width: 100%;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+}

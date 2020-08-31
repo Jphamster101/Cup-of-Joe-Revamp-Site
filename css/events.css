@@ -1,0 +1,32 @@
+
+ .event-link {
+    background-color: #FFA523; 
+ }
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.side-bar {
+    /* background-color: #3b5998; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 20%;
+}
+
+.schedule a:hover {
+    color: #3b5998;
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 5px 10px 8px 10px #8a0303;
+}
+
+article {
+    /* background-color: antiquewhite; */
+    width: 60%;
+}

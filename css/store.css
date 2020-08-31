@@ -1,0 +1,20 @@
+/* https://www.cupofjoe-cedarfalls.com/images/heading_atthecup.jpg */
+
+.store-link {
+    background-color: #FF3543; 
+}
+
+article h2 {
+    color: rgb(214, 212, 212);
+    border-bottom: 2px solid white;
+}
+
+article p {
+    margin: 1rem 0;
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 5px 10px 8px 10px #8a0303;
+}

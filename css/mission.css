@@ -1,0 +1,67 @@
+.mission-link {
+    background-color: #35BEF4;
+}
+
+.community-area {
+    display: flex;
+    align-items: center;
+}
+
+.community-area img {
+    margin-left: 1rem;
+}
+
+article p {
+    margin: 1rem 0;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+article h2 {
+    color: rgb(214, 212, 212);
+    border-bottom: 2px solid white;
+}
+
+.mission-img {
+    height: 7em;
+    width: 100%;
+    background-image: url('https://www.cupofjoe-cedarfalls.com/images/heading_mission.jpg');
+    background-repeat: no-repeat;
+    /* background-color: #cccccc; */
+}
+
+.heading-mission {
+    /* height: 50%; */
+    width: 100%;
+}
+
+.heading-mission {
+    margin-bottom: 2rem;
+    box-shadow: 5px 10px 8px 10px #8a0303;
+    
+}
+
+/* .end-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.end-card a:hover {
+    color: rgb(255, 255, 97);
+}
+
+.end-card h2 {
+    border-bottom: 2px solid white;
+}
+
+.end-card li {
+    list-style: none;
+}
+
+.end-card a {
+    text-decoration: none;
+}

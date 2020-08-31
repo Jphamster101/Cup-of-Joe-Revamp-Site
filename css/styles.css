@@ -12,6 +12,8 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #CE212E;
     color: rgb(224, 222, 222);
     letter-spacing: 3px;
@@ -58,7 +60,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -185,6 +187,10 @@ main {
 /* Footer stuff */
 
 footer {
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    margin-top: auto;
     background-color: #b71c1c;
 }
 
@@ -252,7 +258,7 @@ footer a {
     }
 
     header {
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
     }
 

@@ -10,6 +10,10 @@
     color: #81C784;
 }
 
+main {
+    margin-top: 4em;
+}
+
 .main-section {
     margin: 2rem auto;
     display: flex;

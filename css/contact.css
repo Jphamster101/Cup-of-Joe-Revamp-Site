@@ -60,3 +60,25 @@ article img {
 .kiddie-cocoa {
     width: 50%;
 }
+
+.instagram:hover {
+  background: -webkit-linear-gradient(rgb(64,93,230), #ffdc80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.facebook:hover {
+    color: #4267B2;
+}
+
+.google-mapshover {
+    background: -webkit-linear-gradient(#c3ecb2, #aadaff, #f6cf65);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.pug-image {
+    display: none;
+    width: 100%;
+}

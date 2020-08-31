@@ -12,14 +12,18 @@ html {
 }
 
 body {
+    height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #CE212E;
+    background: linear-gradient(#CE212E, #91161f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-color: #CE212E; */
     color: rgb(224, 222, 222);
     letter-spacing: 3px;
     font-size: 1.5em;
     position: relative;
-    min-height: 100%;
+    /* min-height: 100%; */
 
 
 
@@ -53,14 +57,13 @@ a {
     padding: 0 20px;
 }
 
-
 /* Header Stuff */
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 2rem;
+    margin: 1rem;
 }
 
 
@@ -120,7 +123,6 @@ header a:hover {
 }
 
 .hover-effect:hover {
-    /* border-radius: 10%; */
     width: 100%;
     color: white;
 }
@@ -131,10 +133,6 @@ header a:hover {
 
 .home-link:hover {
    background-color: #FA4B86;
-}
-
-.home-link:active {
-    /* background-color: #A5E21B; */
 }
 
 .floating:hover {  
@@ -149,10 +147,6 @@ header a:hover {
     50%  { transform: translate(0, 10px); }
     to   { transform: translate(0, -0px); }    
 }
-
-/* .home-link:hover {
-    background-color: #A5E21B; 
- } */
 
 .story-link:hover {
     background-color: #A5E21B; 
@@ -191,7 +185,8 @@ footer {
     /* position: fixed; */
     bottom: 0;
     margin-top: auto;
-    background-color: #b71c1c;
+    border-top: 1px solid rgb(204, 65, 65);
+    /* background-color: #b71c1c; */
 }
 
 footer a {
@@ -207,41 +202,6 @@ footer a {
     align-content: space-around;
 }
 
-.legal-stuff a {
-    /* margin: 0 2rem; */
-}
-
-/* Social Media Links */
-
-/* .legal-stuff {
-    background-color: #35BEF4;
-    display: flex;
-    width: 100%;
-}
-
-.legal-stuff a{
-    font-size: 1.5rem;
-    color: white;
-    text-decoration: none;
-}
-
-.legal-stuff ul {
-    list-style: none;
-    width: 100%;
-}
-
-.legal-stuff li {
-    margin: 0 3em;
-    margin-bottom: 1rem;
-}
-
-.legal-stuff a:hover {
-    color: #65a879;
-} */
-
-/* Media Queries */
-
-
 @media screen and (max-width: 1000px) {
 
     .motto h1{
@@ -251,10 +211,6 @@ footer a {
     .hamburger-icon {
         display: block;
         cursor: pointer;
-    }
-
-    .hamburger-icon div:hover {
-        background-color: #35BEF4;
     }
 
     header {

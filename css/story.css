@@ -46,8 +46,6 @@ article p {
     border: 1px solid white;
     border-radius: 50px;
     width: 100%;
-    /* padding: 1rem; */
-    /* background-color: rgb(168, 168, 168); */
 }
 
 .schedule p {
@@ -84,7 +82,6 @@ article p {
     main {
         display: flex;
         flex-direction: column;
-        /* background-color: green; */
     }
 
     .heading-story img {

@@ -101,3 +101,25 @@ function rotateMe() {
 }
 
 // rotateMe();
+
+
+var puggify = document.querySelector('.puggerino');
+
+var pugPic = document.querySelector('.pug-image');
+var main_thing = document.querySelector("main");``
+
+puggify.addEventListener('mouseover', () => {
+  // main_thing.style.display = "none";
+  console.log('hovered')
+
+  pugPic.style.display = 'inline';
+  main_thing.style.display = 'none';
+
+
+
+  setTimeout(function() {
+    main_thing.style.display = "flex";
+    // event.target.style.display = "block";
+    pugPic.style.display = 'none';
+  }, 100);
+}, false);

@@ -1,5 +1,6 @@
 # Cup-of-Joe-Revamp-Site ☕
 
+![](https://github.com/Jphamster101/Cup-of-Joe-Revamp-Site/blob/master/assets/cup_of_joe_draft.gif)
 
 **Goal:** To Update an existing website of a local coffee shop to make it look "better" and responsive.
 
